@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/dizayn3r/skillboost.git/static/css/main.7734e1ea.css",
-    "main.js": "/dizayn3r/skillboost.git/static/js/main.fa34d28c.js",
-    "index.html": "/dizayn3r/skillboost.git/index.html",
-    "main.7734e1ea.css.map": "/dizayn3r/skillboost.git/static/css/main.7734e1ea.css.map",
-    "main.fa34d28c.js.map": "/dizayn3r/skillboost.git/static/js/main.fa34d28c.js.map"
+    "main.css": "/skillboost/static/css/main.7734e1ea.css",
+    "main.js": "/skillboost/static/js/main.fa34d28c.js",
+    "index.html": "/skillboost/index.html",
+    "main.7734e1ea.css.map": "/skillboost/static/css/main.7734e1ea.css.map",
+    "main.fa34d28c.js.map": "/skillboost/static/js/main.fa34d28c.js.map"
   },
   "entrypoints": [
     "static/css/main.7734e1ea.css",

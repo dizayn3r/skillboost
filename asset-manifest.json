@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/skillboost/static/css/main.7734e1ea.css",
-    "main.js": "/skillboost/static/js/main.fa34d28c.js",
-    "index.html": "/skillboost/index.html",
-    "main.7734e1ea.css.map": "/skillboost/static/css/main.7734e1ea.css.map",
-    "main.fa34d28c.js.map": "/skillboost/static/js/main.fa34d28c.js.map"
+    "main.css": "/static/css/main.7734e1ea.css",
+    "main.js": "/static/js/main.dc96ef90.js",
+    "index.html": "/index.html",
+    "main.7734e1ea.css.map": "/static/css/main.7734e1ea.css.map",
+    "main.dc96ef90.js.map": "/static/js/main.dc96ef90.js.map"
   },
   "entrypoints": [
     "static/css/main.7734e1ea.css",
-    "static/js/main.fa34d28c.js"
+    "static/js/main.dc96ef90.js"
   ]
 }

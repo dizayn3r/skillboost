@@ -5,8 +5,7 @@ import AppRoutes from './routes/AppRoutes';
 
 export default function App() {
   return (
-    <Router>
-      {/* <Navbar /> */}
+    <Router basename='/'>
       <AppRoutes />
     </Router>
   );

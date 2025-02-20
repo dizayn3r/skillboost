@@ -1,21 +1,22 @@
 import React from 'react';
 import CategorySection from '../components/CategorySection';
+import reactLogo from '../assets/react.svg';
 
 const devOps = [
   {
     name: 'Docker',
     description: 'Containerize applications with Docker.',
-    image: 'https://via.placeholder.com/400x200.png?text=Docker',
+    image: reactLogo,
   },
   {
     name: 'Kubernetes',
     description: 'Manage container orchestration with Kubernetes.',
-    image: 'https://via.placeholder.com/400x200.png?text=Kubernetes',
+    image: reactLogo,
   },
   {
     name: 'Jenkins',
     description: 'Automate CI/CD pipelines with Jenkins.',
-    image: 'https://via.placeholder.com/400x200.png?text=Jenkins',
+    image: reactLogo,
   },
 ];
 
@@ -24,7 +25,7 @@ export default function DevOps() {
     <CategorySection
       title="DevOps"
       items={devOps}
-      categoryRouteBase="/courses/devops"
+      categoryRouteBase="/devops"
     />
   );
 }

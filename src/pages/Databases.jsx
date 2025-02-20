@@ -1,21 +1,22 @@
 import React from 'react';
 import CategorySection from '../components/CategorySection';
+import reactLogo from '../assets/react.svg';
 
 const databases = [
   {
     name: 'MongoDB',
     description: 'Learn NoSQL with MongoDB.',
-    image: 'https://via.placeholder.com/400x200.png?text=MongoDB',
+    image: reactLogo,
   },
   {
     name: 'MySQL',
     description: 'Master relational databases with MySQL.',
-    image: 'https://via.placeholder.com/400x200.png?text=MySQL',
+    image: reactLogo,
   },
   {
     name: 'PostgreSQL',
     description: 'Explore advanced features of PostgreSQL.',
-    image: 'https://via.placeholder.com/400x200.png?text=PostgreSQL',
+    image: reactLogo,
   },
 ];
 
@@ -24,7 +25,7 @@ export default function Databases() {
     <CategorySection
       title="Databases"
       items={databases}
-      categoryRouteBase="/courses/databases"
+      categoryRouteBase="/databases"
     />
   );
 }

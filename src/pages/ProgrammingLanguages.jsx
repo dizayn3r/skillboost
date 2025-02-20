@@ -1,51 +1,52 @@
 import React from 'react';
 import CategorySection from '../components/CategorySection';
+import reactLogo from '../assets/react.svg';
 
 const programmingLanguages = [
   {
     name: 'C',
     description: 'Learn the fundamentals of C programming.',
-    image: 'https://via.placeholder.com/400x200.png?text=C',
+    image: reactLogo,
   },
   {
     name: 'C++',
     description: 'Master object-oriented programming with C++.',
-    image: 'https://via.placeholder.com/400x200.png?text=C%2B%2B',
+    image: reactLogo,
   },
   {
     name: 'Java',
     description: 'Explore Java programming and build robust applications.',
-    image: 'https://via.placeholder.com/400x200.png?text=Java',
+    image: reactLogo,
   },
   {
     name: 'JavaScript',
     description: 'Learn JavaScript for web development and beyond.',
-    image: 'https://via.placeholder.com/400x200.png?text=JavaScript',
+    image: reactLogo,
   },
   {
     name: 'Python',
     description: 'Dive into Python for data science, automation, and more.',
-    image: 'https://via.placeholder.com/400x200.png?text=Python',
+    image: reactLogo,
   },
   {
     name: 'Dart',
     description: 'Build modern mobile apps with Dart and Flutter.',
-    image: 'https://via.placeholder.com/400x200.png?text=Dart',
+    image: reactLogo,
   },
   {
     name: 'Go',
     description: 'Learn Go for building efficient and scalable applications.',
-    image: 'https://via.placeholder.com/400x200.png?text=Go',
+    image: reactLogo,
   },
   {
     name: 'TypeScript',
     description: 'Master TypeScript for safer and scalable JavaScript development.',
-    image: 'https://via.placeholder.com/400x200.png?text=TypeScript',
+    image: reactLogo,
   },
   {
     name: 'Kotlin',
     description: 'Learn Kotlin for Android development and modern programming.',
-    image: 'https://via.placeholder.com/400x200.png?text=Kotlin',
+    image: reactLogo,
   },
 ];
 
@@ -54,7 +55,7 @@ export default function ProgrammingLanguages() {
     <CategorySection
       title="Programming Languages"
       items={programmingLanguages}
-      categoryRouteBase="/courses/programming-languages"
+      categoryRouteBase="/programming-languages"
     />
   );
 }
